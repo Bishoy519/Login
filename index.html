@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Css/all.min.css">
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Css/main.css">
+  <link rel="stylesheet" href="./Css/media.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center text-center flex-column">
+
+      <div class="sign-in p-5 my-5 d-none" id="sign-in-w">
+        <h1 class="mb-5">Sign In System </h1>
+        <div class="form-floating mb-2">
+          <input type="email" class="form-control" id="username-in" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating my-4">
+          <input type="password" class="form-control" id="pass-in" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <!-- msg  -->
+        <button id="btn-in" type="button" class="btn btn-outline-info w-25 mb-5">Submit</button>
+        <p id="login-p"></p>
+        <h2 class="h6 d-flex justify-content-center align-items-center">Don’t have an account?
+          <button type="button" class="btn btn-link" id="sign-up">Sign Up</button>
+        </h2>
+      </div>
+
+
+
+      <div class="sign-in p-5 m-5" id="sign-up-w">
+        <h1 class="mb-5">Sign Up</h1>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="first-name-up" placeholder="Enter Your Name">
+          <label for="floatingInput">Enter Your First Name</label>
+        </div>
+
+        <p id="user-name-p" class="align-self-end d-flex"></p>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email-up" placeholder="Enter Your Email">
+          <label for="floatingInput">Enter Your Email</label>
+        </div>
+
+        <p id="user-email-p" class="align-self-end d-flex"></p>
+
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="pass-up" placeholder="Enter Your Password">
+          <label for="floatingInput">Enter Your Password</label>
+        </div>
+
+        <p id="user-pass-p" class="align-self-end d-flex"></p>
+
+        <button id="btn-up" type="button" class="btn btn-outline-info w-25 mb-3">Sign Up</button>
+        <p id="signUp-s"></p>
+        <h2 class="h6 d-flex justify-content-center align-items-center">You have an account?
+          <button type="button" class="btn btn-link" id="sign-in">Sign In</button>
+        </h2>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="./javascript/bootstrap.bundle.min.js"></script>
+  <script src="./javascript/main.js"></script>
+</body>
+
+</html>
